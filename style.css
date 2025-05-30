@@ -1,35 +1,63 @@
-.topweb {
-    display: flex;
-    flex-direction:row;
-    gap:30px;
-    
+
+body {
+margin: 0;
 }
 
-.extra {
+nav {
     display: flex;
     flex-direction: row;
     gap:25px;
 }
 
+a {
+ text-decoration: none;
+ color: black;
+}
 
-.hovy:hover {
+a:hover {
     text-decoration: underline;
 }
 
 .bigbox {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    gap: 350px;
+    
+  
 
 }
 
-footer {
+.midpage {
     display:flex;
+    flex-direction: column;
     justify-content: center;
-    background-color: lime;
 }
 
+.box1 {
+    height: 100vh;
+    background-size: cover;
+}
+
+.box2 {
+    height: 100vh;
+    background-size: cover;
+}
+
+
+.box3 {
+    height: 100vh;
+    background-size: cover;
+}
+.choco1 {
+    background-image:url(images/chocolatier1.jpg)
+}
+
+.choco2 {
+    background-image:url(images/chocolatier2.jfif)
+}
+
+.choco3 {
+    background-image:url(images/chocolatier3.jfif)
+}
 .boxf {
    width: 170px;
   height: 20px;
@@ -42,3 +70,23 @@ footer {
 .boxf:hover{
     background-color: green;
 }
+
+
+
+footer {
+    display:flex;
+    justify-content: center;
+    background-color: blue;
+    align-items: center;
+    color:white;
+    height:80px;
+}
+
+header {
+    display: flex;
+    flex-direction:row;
+    gap:30px;
+    position:relative;
+    margin: 20px;
+}
+
