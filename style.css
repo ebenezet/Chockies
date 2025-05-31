@@ -12,10 +12,12 @@ h1 {
 footer {
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: blue;
     color:white;
-    height:80px;
+    height:80;
+    padding: 20px;
+    
 }
 
 header {
@@ -23,7 +25,7 @@ header {
     justify-content: center;
     flex-direction:row;
     position:fixed;
-    margin: 30px;
+    margin: 1px;
 }   
 
 nav {
@@ -47,8 +49,9 @@ a:hover {
 }
 
 marquee {
-    background-color: blue;
+    background-color: rgba(255, 0, 0, 0.76);
     color: white;
+    font-weight: bold;
 }
 
 .bigbox {
@@ -136,3 +139,28 @@ h5:hover{
     margin: 20px;
     color: white;
  }
+
+
+p {
+    margin:0;
+}
+
+ .phone {
+     display:flex;
+        flex-direction: column;
+  border: none;
+  padding:0;
+ }
+
+ 
+ .address {
+     display:flex;
+        flex-direction: column;
+  border: none;
+  padding:0;
+  
+}
+
+.email {
+    font-size: 19px;
+}
