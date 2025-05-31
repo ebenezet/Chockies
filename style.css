@@ -118,8 +118,8 @@ h5:hover{
 }
 
 .alignment {
- margin: 20px;
- font-size: px;
+ margin: 10px;
+ font-size: 35px;
 
 }
 
@@ -134,4 +134,5 @@ h5:hover{
   border: none;
    background-color: transparent;
     margin: 20px;
+    color: white;
  }
