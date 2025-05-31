@@ -1,35 +1,70 @@
 
 body {
-margin: 0;
+margin: 0px;
 }
+
+
+h1 {
+    color: white;
+    padding: 3px;
+}
+
+footer {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: blue;
+    color:white;
+    height:80px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    position:fixed;
+    margin: 30px;
+}   
 
 nav {
     display: flex;
     flex-direction: row;
-    gap:25px;
+    margin: 10px;
 }
 
 a {
  text-decoration: none;
- color: black;
+ color: white;
+ margin:18px;
+border: 1px solid white;
+border-radius:10px;
+padding: 3px;
+
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline
+}
+
+marquee {
+    background-color: blue;
+    color: white;
 }
 
 .bigbox {
     display: flex;
     flex-direction: column;
     
-  
-
 }
 
+main {
+    margin: 0px;
+}
 .midpage {
     display:flex;
     flex-direction: column;
     justify-content: center;
+    padding:2px;
 }
 
 .box1 {
@@ -47,46 +82,56 @@ a:hover {
     height: 100vh;
     background-size: cover;
 }
-.choco1 {
-    background-image:url(images/chocolatier1.jpg)
+.products {
+    background-image:url(images/ghibli1.jpg)
 }
 
-.choco2 {
-    background-image:url(images/chocolatier2.jfif)
+.escape {
+    background-image:url(images/ghibli2.jpg)
 }
 
-.choco3 {
-    background-image:url(images/chocolatier3.jfif)
-}
-.boxf {
-   width: 170px;
-  height: 20px;
-  border: 2px solid black;
-  margin: 10px;
-  padding: 12px;
-   background-color: white;
+.mission {
+    background-image:url(images/ghibli3.jpg)
 }
 
-.boxf:hover{
-    background-color: green;
-}
-
-
-
-footer {
-    display:flex;
-    justify-content: center;
-    background-color: blue;
-    align-items: center;
-    color:white;
-    height:80px;
-}
-
-header {
+h5 {
     display: flex;
-    flex-direction:row;
-    gap:30px;
-    position:relative;
-    margin: 20px;
+    justify-content: flex-start;
+   width: 220px;
+  height: 20px;
+  border: 1.5px solid black;
+   background-color: white;
+   margin: 20px;
+   padding: 15px;
 }
 
+h5:hover{
+    background-color: turquoise;
+}
+
+
+.midtext {
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.alignment {
+ margin: 20px;
+ font-size: px;
+
+}
+
+
+ h2 {
+  border: none;
+   background-color: transparent;
+    margin: 20px;
+ }
+
+ h3 {
+  border: none;
+   background-color: transparent;
+    margin: 20px;
+ }
