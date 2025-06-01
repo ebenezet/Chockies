@@ -5,42 +5,46 @@ margin: 0px;
 
 
 h1 {
-    color: white;
-    padding: 3px;
+    color: brown;
+    padding: 2px;
+    font-size: 25px;
 }
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:row;
+    position:fixed;
+ 
+    gap: 3rem;
+    padding: 1.5rem 3rem;
+    z-index:1;
+}  
+
 
 footer {
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     background-color: blue;
     color:white;
-    height:80;
-    padding: 20px;
-    
+   
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    flex-direction:row;
-    position:fixed;
-    margin: 1px;
-}   
 
 nav {
     display: flex;
-    flex-direction: row;
-    margin: 10px;
+    align-items: center;
+    gap:2.2rem;
 }
 
 a {
  text-decoration: none;
  color: white;
- margin:18px;
-border: 1px solid white;
-border-radius:10px;
-padding: 3px;
+ font-weight: bold;
+ font-size: 16px;
+  color: brown;
 
 }
 
@@ -49,7 +53,7 @@ a:hover {
 }
 
 marquee {
-    background-color: rgba(255, 0, 0, 0.76);
+    background-color:blue;
     color: white;
     font-weight: bold;
 }
@@ -73,17 +77,23 @@ main {
 .box1 {
     height: 100vh;
     background-size: cover;
+    position: relative;
+    background-position: center;
 }
 
 .box2 {
     height: 100vh;
     background-size: cover;
+    position: relative;
+    background-position: center;
 }
 
 
 .box3 {
     height: 100vh;
     background-size: cover;
+    position: relative;
+    background-position: center;
 }
 .products {
     background-image:url(images/ghibli1.jpg)
@@ -97,32 +107,46 @@ main {
     background-image:url(images/ghibli3.jpg)
 }
 
-h5 {
+
+
+
+
+.findmore {
     display: flex;
     justify-content: flex-start;
    width: 220px;
-  height: 20px;
   border: 1.5px solid black;
-   background-color: white;
-   margin: 20px;
+   margin: 18px;
    padding: 15px;
+   background-color: white;
+   
 }
 
-h5:hover{
+.findmore:hover{
     background-color: turquoise;
+    color:white;
+    margin: 35px;
+    text-decoration: none;
 }
 
 
-.midtext {
+
+
+.text {
+     display: flex;
+     flex-direction: column;
+    position: absolute;
+    bottom: 250px;
+    left: 2.5rem;
+    gap: .5rem;
+}
+
+
+.announcement {
     display:flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content: center;
-}
-
-.alignment {
- margin: 10px;
- font-size: 35px;
+    margin:0px;
+ padding:15px;
+ font-size: 30px;
 
 }
 
@@ -136,8 +160,9 @@ h5:hover{
  h3 {
   border: none;
    background-color: transparent;
-    margin: 20px;
-    color: white;
+    margin: 16px;
+    color: brown;
+    font-weight: normal;
  }
 
 
